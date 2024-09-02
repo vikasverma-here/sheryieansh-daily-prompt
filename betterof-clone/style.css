@@ -1,1 +1,117 @@
 
+.gugi-regular {
+    font-family: "Gugi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gugi", sans-serif;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Page-1 Styling */
+  .page-1 {
+    background-color: #E5E7DF;
+    width: 100%;
+    height: 100vh;
+    padding-top: 60px; /* Add padding to accommodate the height of the fixed navigation */
+  }
+  
+  /* Navigation Styling */
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 0 30px;
+    background-color: #E5E7DF; /* Optional: match the page background */
+    z-index: 100;
+    height: 60px; /* Define a height for the navigation */
+  }
+  
+  /* List Styling */
+  .list {
+    display: flex;
+    gap: 20px;
+  }
+  /* left button styling ------> */
+  .left>button{
+   border: none;
+  width: 200px;
+  padding: 10px 0px ;
+  display: flex;
+  justify-content: space-between;
+  background-color: #E5E7DF;
+  border-bottom: 2px solid black;
+  font-size: 20px;
+  margin-top: 30px;
+
+  }
+  
+  /* Page-2 Styling */
+  .page-2 {
+    height: 100vh;
+    width: 100%;
+    background-color: #E5E7;
+    padding-top: 60px; /* Same padding for consistent spacing */
+  }
+  
+  /* content page-1 styling ------------> */
+  .content-page-1{
+         display: flex;
+         padding: 90px 20px;
+         /* border: 2px solid black; */
+        justify-content: space-between;
+  }
+  .content-page-1>.left{
+    width: 20%;
+    font-size: 20px;
+
+
+
+  }
+  .content-page-1>.right{
+   width: 50%;
+    font-size: 45px;
+    font-weight: 550;
+  }
+
+  /* moving element styling -----> */
+
+ .moving-element{
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+ }
+
+ .moving-element>h1{
+    font-size: 400px;
+    font-weight: 800;
+ 
+ }
+ .moving-element>img{
+    height: 250px;
+ }
+
+
+/* page-2 styling here ---------------> */
+
+.page-2{
+    height: 100vh;
+    width: 100%;
+    background-color: #E5E7;
+   
+}
