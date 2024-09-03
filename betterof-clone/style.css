@@ -41,12 +41,25 @@
     z-index: 100;
     height: 60px; /* Define a height for the navigation */
   }
-  
+  .pricing{
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+  }
   /* List Styling */
   .list {
     display: flex;
     gap: 20px;
   }
+ 
+  
+  .list > h3:hover {
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+  }
+  
+
+
+
   /* left button styling ------> */
   .left>button{
    border: none;
@@ -90,23 +103,52 @@
   }
 
   /* moving element styling -----> */
+.first>img{
+height: 230px;
 
- .moving-element{
-    display: flex;
-    align-items: center;
-    object-fit: cover;
- }
-
- .moving-element>h1{
-    font-size: 400px;
-    font-weight: 800;
- 
- }
- .moving-element>img{
-    height: 250px;
- }
+}
+.first>h1{
+font-size: 350px;
+font-weight: 900;
 
 
+}
+.carousal{
+ display: flex;
+ margin-top: 30px;
+
+  
+}
+
+.first{
+height: 100px;
+object-fit: cover;
+overflow-x: hi;
+
+/* background-color: yellow; */
+
+display: flex;
+align-items: center;
+
+
+animation: 4s carousel infinite linear;
+
+
+
+
+
+}
+
+
+/* gits get into  animation ----> */
+@keyframes carousel{
+  from {
+    transform: translateX(0);
+  }
+  to{
+    transform: translate(-100%);
+  }
+}
 /* page-2 styling here ---------------> */
 
 .page-2{
