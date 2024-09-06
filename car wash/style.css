@@ -1,0 +1,169 @@
+* {
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+}
+html,body {
+width: 100%;
+height: 100%;
+}
+.landing-page{
+    height: 100%;
+    width: 100%;
+   
+}
+nav{
+    height: 90px;
+    width: 100%;
+  border-bottom: 2px solid rgb(193, 197, 201);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3vw 2vw;
+
+
+}
+nav>img{
+    width: 7vw;
+}
+.landing-page>nav>button {
+    background-color: blue;
+    color: white; 
+    border: none;
+    padding: 2vh 2vw; 
+    border-radius: 1vh; 
+    font-size: 2vh; 
+    cursor: pointer; 
+  }
+  
+ .landing-page>nav>button:hover {
+    background-color: darkblue; /* Darken on hover */
+  }
+  
+.content{
+   
+    width: 100%;
+   height: calc(100% - 90px) ;
+   padding: 0vw 6vw;
+   margin-top: 3vw;
+   display: flex;
+   gap: 3vw;
+}
+.content>.left-content{
+    height: 100%;
+    width: 50%;
+    margin-top: 3vw;
+  
+}
+.content>.right-content{
+    height: 100%;
+    width: 50%;
+
+
+}
+.content>.right-content>img{
+    width: 90%;
+    object-fit: cover;
+    
+}
+.items>ul>li{
+    list-style: none;
+}
+.items>ul{
+    display: flex;
+    font-size: 1.3vw;
+    font-weight: 700;
+    gap: 3vw;
+}
+nav>i{
+   display: none;
+}
+
+.left-content>h1{
+    font-size: 5vw;
+    line-height: 4.5vw;
+}
+.left-content>p{
+    font-size: 1.3vw;
+    margin-top: 2vw;
+    
+}
+.left-content>button{
+    background-color: blue;
+    color: white; 
+    border: none;
+    padding: 3vh 2vw; 
+    border-radius: 1vh; 
+    font-size: 3vh; 
+    cursor: pointer; 
+    margin-top: 2vw;
+    
+}
+.left-content>button:hover{
+    background-color: darkblue;
+}
+.icons>i{
+   font-size: 2vw;
+  font-weight: 800;
+  color: blue;
+}
+.icons{
+    margin-top: 1vw;
+}
+@media(max-width:600px){
+   
+    nav>.items{
+        display: none;
+    }
+    nav>button{
+        display: none;
+    }
+    nav>img{
+        width: 20vw;
+    }
+    nav>i{
+        display: inline-block;
+        font-size: 6vw;
+    }
+    nav{
+        padding: 7vw 3vw;
+    }
+    .content{
+        display: flex;
+       flex-direction: column;
+       margin-top: 8vw;
+    }
+
+    .content>.left-content{
+width: 100%;
+    }
+    .content>.left-content>h1{
+        font-size: 10vw;
+        line-height: 12vw;
+        margin-bottom: 4vw;
+    }
+    .content>.left-content>p{
+        font-size: 5vw;
+        margin-bottom: 3vw;
+        line-height: 7vw;
+    }
+    .content>.left-content>button{
+        font-size: 3vw;
+        padding: 3vw 3vw;
+        margin-bottom: 3vw;
+    }
+    .icons>i{
+        font-size: 5vw;
+        margin-left: 1vw;
+    }
+    .content>.right-content{
+        width: 100%;
+        
+    }
+    .content>.right-content>img{
+
+        width: 100%;
+        margin-top: 2vw;
+    }
+
+}
