@@ -1,0 +1,261 @@
+* {
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+}
+html,body {
+width: 100%;
+height: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+   
+}
+.page1{
+    height: 100%;
+    width: 98%;
+    background-color: beige;
+    border-radius: 4vw;
+    margin: 1%;
+    position: relative;
+   
+}
+.page1>nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4vw;
+   margin: 1%;
+    height: 10%;
+    width: 98%;
+    /* border: 2px solid black; */
+    position: relative;
+    top: 2.5%;
+
+    /* background-color: red; */
+}
+nav>.section-1>img{
+    height: 3vw;
+    border-radius: 4vw;
+}
+.section-1{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    /* border: 1px solid red; */
+    border-radius: 4vw;
+    padding: 0.5vw;
+    background-color: white;
+    margin-left: 2%;
+   
+   
+}
+.section-2{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    /* border: 1px solid red; */
+    border-radius: 4vw;
+    padding: 0.5vw;
+    background-color: white;
+    margin-right: 2%;
+}
+.section-2>button{
+    height: 90%;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 0 1vw;
+   font-size: 1vw;
+   font-weight: 600;
+}
+
+.page1>.main{
+    display: flex;
+    /* border: 2px solid black; */
+    height: 90%;
+}
+.main>.left-content{
+    /* border: 2px solid black; */
+    width: 40%;
+    padding-left: 2%;
+    padding-top: 20%;
+
+}
+.main>.left-content>h1{
+    line-height: 6vw;
+    font-size: 7vw;
+    
+}
+.main>.left-content>p{
+    
+    font-size: 1.5vw;
+}
+.main>.right-content>img{
+
+    width: 39.5vw;
+
+}
+
+
+.page-2{
+    height: 100%;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+}
+.page-2>.content-page2>.testimonial{
+    display: flex;
+    align-items: center;
+}
+.page-2>.content-page2>.testimonial>h2{
+    font-size: 6vw;
+    line-height: 5.5vw;
+}
+.page-2>.content-page2>.testimonial>img{
+    width: 8vw;
+    height: 16vh;
+    border-radius: 50%;
+}
+.page-2>.content-page2>h2{
+    font-size: 6vw;
+    line-height: 5.5vw;
+}
+
+.page-3{
+    height: 100%;
+    width: 100%;
+  
+    display: flex;
+    align-items: center;
+    padding: 1vw 2vw;
+    justify-content: space-between;
+}
+
+
+
+.left-card{
+    height: 79%;
+    width: 27%;
+    border: 2px solid black;
+    background-image: url("./bg.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 2vw;
+}
+.right-part{
+    height: 79%;
+    width: 70%;
+  
+    padding: 0 1vw;
+}
+.right-part>.first>button{
+padding:  1vw;
+border-radius: 3vw;
+font-size: 20px;
+}
+.right-part>.first>h3{
+
+
+font-size: 2vw;
+}
+.right-part>.first>p{
+
+
+font-size: 20px;
+}
+.right-part>.first{
+display: flex;
+justify-content: space-between;
+border-bottom: 2px solid black;
+padding-bottom: 1vw;
+}
+
+
+.right-part>.second>button{
+    padding:  1vw;
+    border-radius: 3vw;
+    font-size: 20px;
+    }
+    .right-part>.second>h3{
+    
+    
+    font-size: 2vw;
+    }
+    .right-part>.second>p{
+    
+    
+    font-size: 20px;
+    }
+    .right-part>.second{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    padding-bottom: 1vw;
+    /* margin-top: 2px; */
+    padding-top: 20px;
+    }
+    
+
+
+    .right-part>.third>button{
+        padding:  1vw;
+        border-radius: 3vw;
+        font-size: 20px;
+        }
+        .right-part>.third>h3{
+        
+        
+        font-size: 2vw;
+        }
+        .right-part>.third>p{
+        
+        
+        font-size: 20px;
+        }
+        .right-part>.third{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid black;
+        padding-bottom: 1vw;
+        /* margin-top: 2px; */
+        padding-top: 20px;
+        }
+        
+.right-part>.four{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-part>.four>.rightfour{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1vw;
+    height: 15vw;
+    width: 15vw;
+    border: 2px solid black;
+    border-radius: 2vw;
+    background-color: rgb(8, 164, 8);
+    color: white;
+}
+
+.right-part>.four>.rightfour>h1{
+font-size: 4vw;
+}
+.right-part>.four>.leftfour>p{
+        font-size: 1.5vw;
+}
+.right-part>.four>.leftfour{
+      width: 33vw;
+     margin-top: 15%;
+}
