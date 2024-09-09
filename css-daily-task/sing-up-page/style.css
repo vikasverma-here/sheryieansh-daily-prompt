@@ -1,0 +1,107 @@
+* {
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+}
+html,body {
+width: 100%;
+height: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+   background-image: url('https://rvhabitat.org/wp-content/uploads/PostImages/VolunteerOpprotunities-1024x683.jpg');
+   background-size: cover;
+   background-position: center;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container>.singup-page{
+    width: 50%;
+    height: 80%;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: #EDE5E3;
+    padding: 3vw;
+}
+.singup-page>.header-section{
+    line-height: 1.5vw;
+}
+
+.singup-page>.header-section>h1{
+    font-size: 2.9vw;
+    font-weight: 900;
+    line-height: 8vh;
+}
+.singup-page>.main-content{
+   height: 80%;
+   width: 100%;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 4%;
+    
+}
+.singup-page>.main-content>.right{
+    height: 95%;
+    width: 50%;
+    background-color: #FFFFFF;
+    border: 2px solid black;
+  border-radius: 50px;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+  
+}
+.singup-page>.main-content>.right>input{
+    background-color: #5B5B5B; 
+    color: white; 
+    border: none; 
+    padding: 8px 16px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+    
+}
+.singup-page>.main-content>.right>h2{
+    font-size: 1.7vw;
+    font-weight: 900;
+}
+.singup-page>.main-content>.right>h3{
+  font-size: 1vw;
+  font-weight: 900;
+}
+.singup-page>.main-content>.right>button{
+    background-color: #5B5B5B; 
+    color: white; 
+    border: none; 
+    padding: 6px 20px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+.singup-page>.main-content>.left>h2{
+    position: relative;
+    top: 8%;
+    font-size: 1.8vw;
+}
+
+.logos>i{
+    font-size: 1.5vw;
+    font-weight: 900;
+}
+input::placeholder {
+    color: white;
+ 
+    font-size: 14px; 
+    opacity: 1;
+  }
