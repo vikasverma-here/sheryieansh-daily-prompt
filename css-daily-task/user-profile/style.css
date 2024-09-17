@@ -15,7 +15,7 @@ height: 100%;
 .container>.header{
     width: 100%;
     height: 15vh;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: space-between;
     padding: 0 5vw;
@@ -39,18 +39,21 @@ height: 100%;
     align-items: center;
     gap: 1vw;
 }
+.right i{
+    font-size: 2vw;
+}
 .container>.main{
     width: 100%;
-    height: 85vh;
-    border: 2px solid red;
+    height: 87vh;
+    /* border: 2px solid red; */
     padding: 2vw 3vw;
     display: flex;
     justify-content: space-between;
 }
 .container>.main>.left-sec{
-    width: 25%;
+    width: 20%;
     height: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     gap: 3vw;
@@ -72,9 +75,9 @@ height: 100%;
     color: rgb(213, 92, 48);
 }
 .container>.main>.right-sec{
-    width: 70%;
+    width: 80%;
     height: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 2vw 3vw;
     display: flex;
     justify-content: space-between;
@@ -84,7 +87,7 @@ height: 100%;
 .container>.main>.right-sec>.profile{
    height: 100%;
    width: 45%;
-   border: 2px solid red;
+   /* border: 2px solid red; */
    padding: 1vw;
    border-radius: 2vw;
    background-color: white;
@@ -142,22 +145,122 @@ height: 100%;
 .container>.main>.right-sec>.other{
     height: 100%;
     width: 50%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    padding: 1vw;
+    border-radius: 2vw;
 }
 .container>.main>.right-sec>.other>.accounts{
     height: 45%;
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    border-radius: 2vw;
+    background-color: white;
+    padding: 1vw;
     
 
+
+}
+.container>.main>.right-sec>.other>.accounts>.head{
+   border-bottom: 1px solid black;
+   height: 3vw;
+padding: 0vw 0.5vw;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 1.3vw;
+
+
+
+}
+.container>.main>.right-sec>.other>.accounts>.head>.top{
+    display: flex;
+    gap: 2vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+    align-items: center;
+}
+.container>.main>.right-sec>.other>.accounts>.head>.top>button{
+    padding: 0.3vw 1vw;
+    border: none;
+    background-color: rgb(213, 92, 48);
+    color: white;
+    font-weight: 600;
+    border-radius: 2vw;
+}
+.container>.main>.right-sec>.other>.accounts>.center{
+   /* border-bottom: 1px solid black; */
+   display: flex;
+   justify-content: space-between;
+   height: 4vw;
+   align-items: center;
+}
+.container>.main>.right-sec>.other>.accounts>.center>button{
+    padding: 0.5vw 1vw;
+    border-radius: 3vw;
+    border: none;
+    background-color:rgb(213, 92, 48) ;
+    color: white;
+    font-weight: 600;
 }
 .container>.main>.right-sec>.other>.bills{
     height: 45%;
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    border-radius: 2vw;
+    background-color: white;
+    padding: 1.5vw;
 
+}
+.container>.main>.right-sec>.other>.bills>.head{
+    display: flex;
+    gap: 2vw;
+    font-size: 1.5vw;
+    
+    font-weight: 600;
+    align-items: center;
+    justify-content: space-between;
+   padding-bottom: 0.6vw;
 
+    border-bottom: 1px solid black;
+}
+.container>.main>.right-sec>.other>.bills>.head>button{
+    padding: 0.3vw 0.5vw;
+    border-radius: 3vw;
+    border: none;
+    background-color:rgb(213, 92, 48) ;
+    color: white;
+border-bottom: 1px solid black;
+font-weight: 600;
+}
+.center>.part-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.8vw;
+
+}
+.center>.part-1>.right-one{
+    display: flex;
+    gap: 1vw;
+}
+.center>.part-1>button{
+    padding: 0.3vw 0.7vw;
+    border-radius: 3vw;
+    background-color: rgb(213, 92, 48);
+    border: none;
+    color: white;
+    font-weight: 600;
+
+}
+
+.center>.part-1>.right-one>p{
+    font-size: 1.3vw;
+    font-weight: 600;
+}
+.center>.part-1>.right-one>i{
+    font-size: 1.3vw;
+    color: rgb(213, 92, 48);
 }
