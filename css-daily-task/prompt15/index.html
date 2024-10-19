@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travelBookingForm</title>
+    <link rel="stylesheet" href="travelBookingForm.css">
+</head>
+<body>
+    <div class="booking-form">
+        <h2>Travel Booking Form</h2>
+        <form>
+            <div class="form-group">
+                <label for="destination">Destination:</label>
+                <select id="destination" name="destination" required>
+                    <option value="">Select Destination</option>
+                    <option value="paris">Paris</option>
+                    <option value="new-york">New York</option>
+                    <option value="tokyo">Tokyo</option>
+                    <option value="sydney">Sydney</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="travelers">Number of Travelers:</label>
+                <select id="travelers" name="travelers" required>
+                    <option value="">Select Number of Travelers</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6+">6+</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="departure-date">Departure Date:</label>
+                <input type="date" id="departure-date" name="departure-date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="return-date">Return Date:</label>
+                <input type="date" id="return-date" name="return-date" required>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Book Now">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
