@@ -14,10 +14,9 @@
     background: #333;
     color: #fff;
     padding: 10px 0;
-    background: #c21500;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #c21500; 
+background: -webkit-linear-gradient(to right, #ffc500, #c21500);  
+background: linear-gradient(to right, #ffc500, #c21500); 
   }
   
   .navbar {
@@ -158,6 +157,10 @@ background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, F
   footer {
     background: #333;
     color: #fff;
+    background: #4b6cb7;  
+background: -webkit-linear-gradient(to right, #182848, #4b6cb7); 
+background: linear-gradient(to right, #182848, #4b6cb7); 
+
     text-align: center;
     padding: 20px;
   }
