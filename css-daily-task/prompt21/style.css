@@ -1,0 +1,97 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  /* Countdown Timer Styling */
+  .countdown-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  #countdown {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  #countdown div {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  #countdown span {
+    font-size: 3rem;
+    display: block;
+    color: #333;
+  }
+  
+  /* Purchase Options Styling */
+  .purchase-options {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 30px;
+  }
+  
+  .product-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+  }
+  
+  .product-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .product-card p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .product-card button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-card button:hover {
+    background-color: #0056b3;
+  }
+  
