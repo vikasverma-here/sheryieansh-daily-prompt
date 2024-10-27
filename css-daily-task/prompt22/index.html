@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Event Registration</h2>
+        <form id="registrationForm">
+          <!-- Step 1 -->
+          <div class="step active" id="step1">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" required>
+            </div>
+            <div class="button-group">
+              <button type="button" class="next-btn" onclick="nextStep()">Next</button>
+            </div>
+          </div>
+          
+          <!-- Step 2 -->
+          <div class="step" id="step2">
+            <div class="form-group">
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" required>
+            </div>
+            <div class="form-group">
+              <label for="event">Event:</label>
+              <input type="text" id="event" required>
+            </div>
+            <div class="button-group">
+              <button type="button" class="prev-btn" onclick="prevStep()">Previous</button>
+              <button type="button" class="next-btn" onclick="nextStep()">Next</button>
+            </div>
+          </div>
+          
+          <!-- Step 3 -->
+          <div class="step" id="step3">
+            <h3>Confirm Registration</h3>
+            <p>Click "Submit" to complete your registration.</p>
+            <div class="button-group">
+              <button type="button" class="prev-btn" onclick="prevStep()">Previous</button>
+              <button type="submit" class="next-btn">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <script src="script.js"></script>
+</body>
+</html>
