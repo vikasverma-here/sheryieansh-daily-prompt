@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    padding: 20px;
+  }
+  
+  .flyer-container {
+    max-width: 700px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .flyer-container:hover {
+    transform: scale(1.02);
+  }
+  
+  .logo {
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .logo-img {
+    max-width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .logo-img:hover {
+    transform: rotate(10deg);
+  }
+  
+  .event-image {
+    width: 100%;
+  }
+  
+  .event-img {
+    width: 100%;
+    height: auto;
+    border-top: 2px solid #ff7e5f;
+    border-bottom: 2px solid #feb47b;
+  }
+  
+  .event-details {
+    padding: 25px;
+    background: #fff;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  p {
+    font-size: 1.1em;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .register-btn {
+    padding: 12px 24px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #ff7e5f;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(255, 126, 95, 0.3);
+  }
+  
+  .register-btn:hover {
+    background-color: #feb47b;
+    transform: translateY(-3px);
+  }
+  
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 1.5em;
+    }
+  
+    .register-btn {
+      font-size: 1em;
+      padding: 10px 20px;
+    }
+  }
+  
