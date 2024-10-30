@@ -51,7 +51,8 @@
   
   .event-img {
     width: 100%;
-    height: auto;
+    /* height: auto; */
+    height: 300px;
     border-top: 2px solid #ff7e5f;
     border-bottom: 2px solid #feb47b;
   }
