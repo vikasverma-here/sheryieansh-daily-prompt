@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  .poster-container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  .event-title {
+    font-size: 2rem;
+    color: #ff4c4c;
+    margin-bottom: 1rem;
+  }
+  
+  .event-date,
+  .event-location {
+    font-size: 1.2rem;
+    color: #aaaaaa;
+    margin: 0.5rem 0;
+  }
+  
+  .event-description {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #cccccc;
+  }
+  
+  .register-button {
+    margin-top: 1.5rem;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #ff4c4c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-button:hover {
+    background-color: #ff1a1a;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .poster-container {
+      padding: 1.5rem;
+    }
+  
+    .event-title {
+      font-size: 1.8rem;
+    }
+  
+    .event-date,
+    .event-location {
+      font-size: 1rem;
+    }
+  
+    .event-description {
+      font-size: 0.9rem;
+    }
+  
+    .register-button {
+      font-size: 0.9rem;
+      padding: 0.6rem 1.3rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .poster-container {
+      padding: 1rem;
+    }
+  
+    .event-title {
+      font-size: 1.6rem;
+    }
+  
+    .event-date,
+    .event-location {
+      font-size: 0.9rem;
+    }
+  
+    .event-description {
+      font-size: 0.8rem;
+    }
+  
+    .register-button {
+      font-size: 0.8rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+  
