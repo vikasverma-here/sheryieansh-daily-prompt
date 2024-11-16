@@ -1,5 +1,5 @@
 // // Set the date for the launch
-const launchDate = new Date("NOV 8, 2024 12:00:00").getTime();
+const launchDate = new Date("dec 21, 2024 12:00:00").getTime();
 console.log(launchDate)
 
 const countdown = () => {
@@ -17,14 +17,14 @@ const countdown = () => {
   document.getElementById('minutes').textContent = minutes;
   document.getElementById('seconds').textContent = seconds;
 
-  // If the countdown is over, display text
+
   if (distance < 0) {
     clearInterval(interval);
     document.getElementById("countdown").innerHTML = "<h2>Launched!</h2>";
   }
 };
 
-// Update countdown every second
+
 const interval = setInterval(countdown, 1000);
 
 

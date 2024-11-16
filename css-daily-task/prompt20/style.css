@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -50,8 +50,7 @@ background: linear-gradient(to right, #ffc500, #c21500);
   .hero {
     position: relative;
     height: 80vh;
-    /* background: #333; */
-    /* color: #fff; */
+   
     color: black;
     display: flex;
     justify-content: center;
@@ -171,7 +170,7 @@ background: linear-gradient(to right, #182848, #4b6cb7);
     text-decoration: none;
   }
   
-  /* Responsive */
+
   @media (max-width: 768px) {
     .service-cards {
       flex-direction: column;

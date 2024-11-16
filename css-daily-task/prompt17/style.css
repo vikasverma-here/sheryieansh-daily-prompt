@@ -12,9 +12,10 @@ body {
 }
 
 header {
-    background: #8E0E00;  
-    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  
-    background: linear-gradient(to right, #1F1C18, #8E0E00);
+    background: #0f0c29;  
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -73,10 +74,10 @@ header p {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #8E0E00;  
-background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  
-background: linear-gradient(to right, #1F1C18, #8E0E00); 
-
+    background: #0f0c29;  
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    
     color: #fff;
     margin-top: 20px;
 }

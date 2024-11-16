@@ -3,24 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Digital Event Flyer</title>
+  <title>Login Form</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="flyer-container">
-    <div class="logo">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKzjx9mH63AXTe_unvndJR2NWNvup8Q0VofA&s" alt="Event Logo" class="logo-img">
-    </div>
-    <div class="event-image">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH0778OnyB4IvE7BOq6moxJOo_Tu4KdJf5PA&s" alt="Event Image" class="event-img">
-    </div>
-    <div class="event-details">
-      <h1>Event Title</h1>
-      <p>Date: November 12, 2024</p>
-      <p>Location: Main Hall, City Center</p>
-      <p>Join us for an exciting event where you’ll experience...</p>
-      <button class="register-btn">Register Now</button>
-    </div>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form>
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password</label>
+      <div class="password-container">
+        <input type="password" id="password" name="password" required>
+        <button id="eye" type="button" onclick="togglePassword()" class="toggle-password">
+          👁️
+        </button>
+      </div>
+
+      <button type="submit" class="login-btn">Login</button>
+    </form>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
