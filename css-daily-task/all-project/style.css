@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Section Styling */
+  .section {
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Card Container Styling */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;  /* Add space between cards */
+    padding: 0 10px;
+  }
+  
+  /* Card Styling */
+  .card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%; /* 3 cards per row */
+    margin-bottom: 20px;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Hover effect for card */
+  }
+  
+  /* Card Heading */
+  .card h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  /* Card Image */
+  .card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  /* Button Box */
+  .button-box {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Button Styling */
+  .card-btn {
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .card {
+      width: 45%; /* 2 cards per row on medium screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      width: 100%; /* 1 card per row on small screens */
+    }
+  }
+  
